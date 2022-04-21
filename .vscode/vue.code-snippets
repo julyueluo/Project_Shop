@@ -1,0 +1,23 @@
+{
+    "snippet": {
+        "scope": "vue", // 適用的副檔名
+        "prefix": "snippet", // 快捷關鍵字
+        "body": [
+            "<template>",
+            "  <div>",
+            "    $0", // $0 用來表示鼠標最後停在的地方
+            "  </div>",
+            "</template>",
+            "",
+            "<script>",
+            "export default {",
+            "  ",
+            "}",
+            "",
+            "<style lang=\"\">",
+            "  ",
+            "</style>"
+        ],
+        "description": "Vue template" // 為這段樣板背著一個敘述
+    }
+}
